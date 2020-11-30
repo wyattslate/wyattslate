@@ -1,0 +1,150 @@
+/* === Typography === */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    line-height: 18pt;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 24pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+footer {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: 18pt;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
+aside a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 22pt;
+}
+
+
+
+/* === Backgrounds === */
+
+header {
+    background-color: #000000;
+}
+
+main {
+    background-color: #cdcdcd;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #000000;
+}
+
+#splash {
+    background-image:url(heading.jpg);
+    background-size:cover;
+}
+
+
+
+/* === Box Model === */
+
+#splash {
+    height: 400px;
+}
+
+#foodarticles {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+article {
+    padding-bottom: 55px;
+}
+
+nav a {padding-right: 25px;}
+
+nav img {
+    padding-right: 40px;
+}
+
+
+
+/* === Layout === */
+
+.floatleft {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+aside {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+   }
+
+main {
+    padding-top: px;
+}
+
+footer {
+    padding: 50px;
+}
